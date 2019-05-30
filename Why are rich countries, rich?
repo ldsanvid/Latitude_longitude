@@ -1,0 +1,32 @@
+Why are the rich countries, rich, and the poor, poor?
+What is the factor that makes Norway one of the richest and Haiti one of the poorest?
+Is it just the consequence of history or is there something more?
+
+If one explanaition of a country's current situation is its history, which depends on decisions made by men and women...
+Which element of a country does not depend on the actions of its population or its leaders? 
+Geography
+
+Hypothesis of this work: 
+There is a correlation between a country’s coordinates and its level of wealth. 
+Transparency is correlated with a country's wealth.
+Resources for this work: 
+Databases from the World Bank and World Transparency and data obtained through Google Maps API.
+
+Data exploration process:
+- Datasets exploration and download (religion, gdp, income group, region).
+- Data cleaning to make sure there were no missing values and that such values were in a uniform format.
+- Data merge into one single dataset through the common value, the country.
+- Data frame creation combining columns in order to find noteworthy insights.
+- Through the Google API, obtained Latitude and Longitude for each country in the data set.
+
+Data analyisis:
+- Several plotting trials in order to find those plots whose information provided an easier chance to display in an understandable way.
+
+Conclusion:
+- A country's coordinates do affect its level of wealth and its level of wealth is linked to its level of transparency, proven by:
+    - The most distant countries from the Ecuador are the richest. 
+    - The closest ones are the poorest.
+    - The most transparent countries are the ones with the biggest GDPs.
+    - The least transparent are the ones with the smallest GDPs.
+    - The colder countries (hence the most distant from the Ecuador) are the most transparent ones.
+    - The hotter countries (hence the closest to the Ecuador) are the least transparent ones.
